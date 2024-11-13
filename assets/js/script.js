@@ -6,7 +6,7 @@ const listItems=document.getElementById('listItem');
 const list= [];
 
 btnInsert.addEventListener('click', function (e) {
-    if (!checkInput) return;
+    if (!checkInput()) return;
     e.preventDefault();
     
     arrayCompleto();
